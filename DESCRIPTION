@@ -1,0 +1,12 @@
+Package: languageVariationAndChangeData
+Title: Language Variation and Change Data
+Version: 0.1
+Authors@R: person("Josef", "Fruehwald",
+    email = "josef.frueh@ed.ac.uk",
+    role = c("aut", "cre"))
+Description: Contains data for the LVC course
+Depends:
+    R (>= 3.1.1)
+License: MIT
+LazyData: true
+RoxygenNote: 5.0.1
