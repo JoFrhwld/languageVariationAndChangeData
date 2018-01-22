@@ -99,3 +99,47 @@
 #' }
 #'
 "joe_vowels"
+
+
+#' Hoose Dyad Data
+#' 
+#' @details 
+#' This data set is from Smith et al (2007), Table 8. It contains the proportion 
+#' of monophthongal realizations [ʉ] of the HOOSE variable (in contrast to the diphthongal
+#' variant [ʌʉ]).
+#' 
+#' @format a data frame with 7 columns
+#' \describe{
+#'   \item{child}{child's pseudonym}
+#'   \item{caregiver_n}{number of coded HOOSE tokens for each child's caregiver}
+#'   \item{caregover_p}{proportion of [ʉ] realizations for each child's caregiver}
+#'   \item{child_n}{number of coded HOOSE tokens for each child}
+#'   \item{child_p}{proportion of [ʉ] realizations for each child}
+#'   \item{years}{years component of child's age}
+#'   \item{months}{months component of child's age}
+#' }
+#' 
+#' @source Smith, J., Durham, M., & Fortune, L. (2007). ``Mam, my trousers is fa’in doon!’’: Community, caregiver, and child in the acquisition of variation in a Scottish dialect. Language Variation and Change, 19, 63–99.
+#' 
+"hoose_dyad"
+
+
+#' Buckie TD data
+#' 
+#' @details 
+#' This data set is from Smith et al (2009), excerpted from Table 4. It contains the proportion
+#' of TD pronunciation for caregivers and children, pooled.
+#' 
+#' @format a data frame with 7 columns
+#' \describe{
+#'   \item{gram}{morphological context of the t/d}
+#'   \item{caregiver_n}{number of coded TD tokens for caregivers}
+#'   \item{caregover_p}{proportion of pronounced /t,d/ caregivers}
+#'   \item{child_n}{number of coded TD tokens for children}
+#'   \item{child_p}{proportion of pronounced /t,d/ for children}
+#' }
+#' 
+#' @source Smith, J., Durham, M., & Fortune, L. (2009). Universal and dialect-specific pathways of acquisition: Caregivers, children, and t/d deletion. Language Variation and Change, 21(1), 69. https://doi.org/10.1017/S0954394509000039
+#' 
+
+"buckie_td"
